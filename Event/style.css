@@ -1,0 +1,117 @@
+@font-face {
+    font-family: APL2741;
+    src: url(src/Fonts/APL2741Unicode.ttf);
+  }
+
+  @font-face {
+    font-family: Boris;
+    src: url(src/Fonts/Boris.otf);
+  }
+
+  @font-face {
+    font-family: Love Craft Italic;
+    src: url(src/Fonts/Love\ Craft\ Italic.ttf);
+  }
+
+  @font-face {
+    font-family: SimpleHandmade;
+    src: url(src/Fonts/SimpleHandmade.otf);
+  }
+
+
+h1 {
+text-align: left;
+font-size: 50px;
+color: beige;
+font-family: Love Craft Italic;
+margin-left: 50px;
+}
+
+h2 {
+text-align: right;
+font-size: 150px;
+color: aquamarine;
+font-family: Love Craft Italic;
+margin-right: 150px;
+margin: 10px auto;
+}
+
+h3 {
+    font-size: 60px;
+    font-family: Boris;
+    text-align: center;
+    margin: 10px auto;
+
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.intro {
+    font-size: 30px;
+}
+.titel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: brown;
+    margin: 10px;
+}
+
+body {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.img-container {
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.img-wrapper {
+    width: 450px;
+}
+
+img {
+    width: 450px;
+    height: auto;
+}
+
+.tussentitel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img:hover {
+    box-shadow: 5px 5px 25px rgb(245, 4, 125);
+    cursor: pointer;
+}
+
+.hartje:hover {
+    text-shadow: 5px 5px 25px rgb(245, 4, 125);
+    cursor: cell;
+}
+
+.hartje {
+    font-size: 30px;
+
+}
+
+footer {
+    font-family: SimpleHandmade;
+    font-size: 20px;
+}
+
+a:hover {
+    cursor: progress;
+}
+
